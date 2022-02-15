@@ -1,42 +1,59 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Entity Reference</title>
+    <meta charset="utf-8">
+    <title>Entity Reference</title>
+    <style>
+        th, caption
+        {
+            font-size:20pt;
+            background-color:cyan;
+            border:3px solid darkcyan;
+            font-weight:bold;
+        }
+        table
+        {
+            border-spacing:0
+        }
+        td
+        {
+            border:1px solid #606060;
+        }
+    </style>
 </head>
 
 	<body>
 		<h1>Welcome to my "awesome&quot; entity reference&nbsp;&lt;web&gt;page!</h1>
 		
-		<table style="border:3px solid red">
+		<table style="border:3px solid black">
           <caption>Reserved Characters</caption>
             <tbody>
                 <tr>
-                    <th scope="col" style="border:1px solid black">Character</th>
-                    <th scope="col" style="border:1px solid black">Entity Name</th>
-                    <th scope="col" style="border:1px solid black">Entity Value(dec)</th>
-                    <th scope="col" style="border:1px solid black">Entity Value(hex)</th>
+                    <th scope="col">Character</th>
+                    <th scope="col">Entity Name</th>
+                    <th scope="col">Entity Value(dec)</th>
+                    <th scope="col">Entity Value(hex)</th>
                 </tr>
                 <tr>
-                    <th scope="row" style="border:1px solid black">&lt;</th>
+                    <th scope="row" style="font-size:30pt;">&lt;</th>
                     <td>&nbsp;&amp;lt;</td>
                     <td>&nbsp;&amp;#60;</td>
                     <td>&amp;#x0003C;&nbsp;</td>
                 </tr>
                 <tr>
-                    <th scope="row" style="border:1px solid black">&gt;</th>
+                    <th scope="row" style="font-size:30pt;">&gt;</th>
                     <td>&nbsp;&amp;gt;</td>
                     <td>&nbsp;&amp;#62;</td>
                     <td>&nbsp;&amp;#x0003E;</td>
                 </tr>
                 <tr>
-                    <th scope="row" style="border:1px solid black">&quot;</th>
+                    <th scope="row" style="font-size:30pt;">&quot;</th>
                     <td>&nbsp;&amp;quot;</td>
                     <td>&nbsp;&amp;#34;</td>
                     <td>&nbsp;&amp;#x00022;</td>
                 </tr>
                 <tr>
-                    <th scope="row" style="border:1px solid black">&amp;</th>
+                    <th scope="row" style="font-size:30pt;">&amp;</th>
                     <td>&nbsp;&amp;amp;</td>
                     <td>&nbsp;&amp;#38;</td>
                     <td>&nbsp;&amp;#x00026;</td>
