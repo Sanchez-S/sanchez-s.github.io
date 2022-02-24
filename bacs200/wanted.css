@@ -4,11 +4,15 @@
 	border: 1px solid brown;
 }
 */
+:root
+{
+	--old-western-brown: rgb(100,50,18);
+}
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  saddlebrown;
+	background-color:  var(--old-western-brown);
 }
 header
 {
@@ -25,6 +29,8 @@ header h1
 header h2
 {
 	font-size:  20pt;
+	color: var(--old-western-brown);
+	font-variant: small-caps;
 }
 main h1
 {
