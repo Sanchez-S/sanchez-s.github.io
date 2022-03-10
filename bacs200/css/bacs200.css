@@ -130,5 +130,9 @@ h2+p::first-letter {
     margin-right: 6px;
     float: left;
 }
+iframe
+{
+    width:100%;
+}
 
 
