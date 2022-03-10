@@ -8,13 +8,26 @@
 				font-family:'PatrickHand';
 				src:url('bacs200/css/fonts/PatrickHand-Regular.ttf') format('truetype');
 			}
-			*
+            @font-face
+            {
+                font-family:'Rubik';
+                src:url('bacs200/css/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+            }
+			form
 			{
 				font-family:'PatrickHand';
+                font-size: 1.5em;
 			}
+            h1
+            {
+                font-family:'Rubik';
+                font-weight: bold;
+                font-size: 10vw;
+            }
 		</style>
 	</head>
 	<body>
+        <h1>Forms &amp; Fonts</h1>
 		<form method="get" action="https://validator.w3.org/check">
 			<label for="url">Enter a <em>single</em> address:</label>
 			<input id="url" name="uri" type="text">
