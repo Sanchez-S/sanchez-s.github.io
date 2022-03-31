@@ -1,6 +1,11 @@
+*
+{
+  font-size:1.5vw;
+}
+
 th, caption
 {
-    font-size:20pt;
+    font-size:2vw;
     background-color:cyan;
     border:3px solid darkcyan;
     font-weight:bold;
@@ -15,11 +20,11 @@ td
 }
 *[scope^="col"]
 {
-    column-width:300px;
+    column-width:20vw;
 }
 *[scope^="row"]
 {
-    font-size:45pt;
+    font-size:3vw;
 }
 thead th
 {
@@ -28,5 +33,10 @@ thead th
 th + td
 {
     font-weight:bold;
+}
+img
+{
+  width:15vw;
+  min-width:100px;
 }
 
